@@ -30,18 +30,6 @@ K-means and Hierarchical Agglomerative Clustering (HAC) on the Abalone and Iris 
 - Automated tuning via `GridSearchCV` and `RandomizedSearchCV`, compared for speed and accuracy
 - Applying `MLPRegressor` to a large real-world time-series regression problem
 
-## Running the notebooks
-
-Most datasets load directly from public URLs, so the notebooks run end-to-end with no setup beyond installing dependencies:
-
-```
-pip install scikit-learn pandas numpy matplotlib scipy
-```
-
-Two notebooks use a self-selected dataset that isn't bundled in the repo — a short comment in each notebook links to the source and where to place the file:
-- `decision-trees.ipynb` — a body fat prediction dataset (regression section)
-- `backpropagation.ipynb` — an Amazon/Google product review time-series dataset (regression section)
-
 ## Tools
 
 Python, scikit-learn, pandas, NumPy, Matplotlib
